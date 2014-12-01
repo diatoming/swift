@@ -2,7 +2,6 @@
 
 import Foundation
 
-
 extension NSArray {
 
   class func arrayWithNZeros(n: Int) -> NSArray {

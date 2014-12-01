@@ -3,34 +3,44 @@
 // Have faith in the way things are.
 //
 // process-info.swift
-// released: Sun Nov 30 12:15:31 CET 2014
+// released: Mon Dec  1 21:37:36 CET 2014
 //++
 
-// == Description
+//== Description
 // parsing process info
 //
-// == Run
+//== Run
 // $ swift ./process-info.swift
 //
-// == Compile
-// $ swiftc ./process-info.swift -o process-info
+//== Compile
+// $ swiftc -sdk $(xcrun --show-sdk-path --sdk macosx) ./process-info.swift
 //
-// == Author
+//== Source
+// http://stackoverflow.com/questions/24009050/how-do-i-access-program-arguments-in-swift
+//
+//== Author
 // rimbaud1854
 //
-// == Copyright
+//== Copyright
 // Copyright (c) 2014 rimbaudcode
 // Licensed under GPLv3+. No warranty provided.
 
-// Process is a Swift std lib Struct
-for argument in Process.arguments {
-	println(argument)
+// three ways to retrieve process info:
+
+// the swiftest! Process from std lib
+for arg in Process.arguments {
+    println(arg)
 }
 
-// old-school
+// the swifter: NSProcessInfo included in Foundation
 import Foundation
 
 let pi = NSProcessInfo()
 
-println(pi.arguments)
+for arg in pi.arguments {
+	println(arg)
+}
 
+// last option: the C style: using predefined global vars
+println(C_ARGC) //CInt
+println(C_ARGV) // CString

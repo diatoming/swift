@@ -1,8 +1,5 @@
 // Playground - noun: a place where people can play
 
-import Foundation
-
-
 var score = 0
 
 for idx in 0...10 {

@@ -5,7 +5,7 @@ import Cocoa
 var synth = NSSpeechSynthesizer()
 
 let jellyTime = "Do the peanut butter jelly, peanut butter jelly, " +
-"Peanut butter jelly with a baseball bat"
+  "Peanut butter jelly with a baseball bat"
 
 synth.startSpeakingString(jellyTime)
 

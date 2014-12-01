@@ -2,18 +2,18 @@
 //--
 // Have faith in the way things are.
 //
-// hello.swift
-// released: Mon Dec  1 21:33:32 CET 2014
+// test.swift
+// released: Mon Dec  1 21:39:04 CET 2014
 //++
 
 //== Description
-// 'hello world' tools: interpreted and compiled
+// compile script with Foundation framework
 //
 //== Run
-// $ swift ./hello.swift
+// $ swift ./test.swift
 //
 //== Compile
-// $ swiftc -sdk $(xcrun --show-sdk-path --sdk macosx) ./hello.swift
+// $ swiftc -sdk $(xcrun --show-sdk-path --sdk macosx) ./test.swift
 //
 //== Source
 //
@@ -26,7 +26,7 @@
 
 import Foundation
 
-let msg = "Hello, world! Welcome to Swift scripting!"
+let msg = "This is a test!"
 
 println(msg)
-NSLog(msg)
+
