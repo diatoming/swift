@@ -1,29 +1,4 @@
 #!/usr/bin/env swift
-//--
-// Have faith in the way things are.
-//
-// readme.swift
-// released: Mon Dec  1 10:32:09 CET 2014
-//++
-
-//== Description
-// a simple file reader
-//
-//== Run
-// $ swift ./readme.swift
-//
-//== Compile
-// $ swiftc ./readme.swift -o readme
-//
-//== Source
-// http://dev.iachieved.it/iachievedit/?p=336
-// http://stackoverflow.com/questions/26538375/read-file-in-swift-ios-playground
-//== Author
-// rimbaud1854
-//
-//== Copyright
-// Copyright (c) 2014 rimbaudcode
-// Licensed under GPLv3+. No warranty provided.
 
 import Foundation
 
@@ -52,7 +27,6 @@ for filename in filenames {
 		println("readme.swift: \(filename):  No such file")
 	}
 }
-
 
 // from the tool
 

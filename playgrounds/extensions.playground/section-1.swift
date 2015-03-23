@@ -30,4 +30,3 @@ extension String {
 
 let phrase = "This is a test!"
 phrase.length == countElements(phrase)
-

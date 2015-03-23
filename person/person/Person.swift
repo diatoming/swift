@@ -8,22 +8,20 @@
 
 import Foundation
 
-class Person: NSObject {
+struct Person {
     
     let firstname: String = ""
     let lastname : String = ""
-    
-    init(firstname: String, lastname: String) {
-        self.firstname = firstname.capitalizedString
-        self.lastname  = lastname.capitalizedString
-    }
-    
-    func greet() -> String {
-        return "Hello! My name is \(self.firstname) \(self.lastname)."
-    }
-    
-    func greetSomebody(somebody: String) -> String {
-        return "Hi, \(somebody.capitalizedString)!"
-    }
-    
+}
+
+extension Person {
+
+  func greet() -> String {
+    return "Hello! My name is \(self.firstname.capitalizedString) \(self.lastname.capitalizedString)."
+  }
+
+  func greetSomebody(somebody: String) -> String {
+    return "Hi, \(somebody.capitalizedString)!"
+  }
+
 }

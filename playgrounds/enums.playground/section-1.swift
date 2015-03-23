@@ -6,15 +6,17 @@ enum CarModel {
   case Ferrari
 }
 
-class Car {
+struct Car {
 
   let model : CarModel
 
-  init(model:CarModel) {
-    self.model = model
-  }
-
 }
 
-let myCar = Car(model: .Ferrari)
+extension Car {
+  func carModel () -> String {
+    return "\(self.model)"
+  }
+}
 
+let ferrari = Car(model: .Ferrari)
+println(ferrari.carModel())
