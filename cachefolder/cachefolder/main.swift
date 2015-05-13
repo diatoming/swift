@@ -8,9 +8,6 @@
 
 import Cocoa
 
-let CACHE_FOLDER_INDEX = 0
-
-let fileManager = NSFileManager.defaultManager()
-let cacheFolderURL = fileManager.URLsForDirectory(NSSearchPathDirectory.CachesDirectory, inDomains: NSSearchPathDomainMask.UserDomainMask)[CACHE_FOLDER_INDEX] as! NSURL
-
+let cacheFolderURL = RCCacheFolder().cacheFolderURL()
 NSWorkspace.sharedWorkspace().openURL(cacheFolderURL)
+
