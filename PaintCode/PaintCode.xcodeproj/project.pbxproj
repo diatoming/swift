@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD8D6C411B0A704B00BFDDF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D6C401B0A704B00BFDDF3 /* AppDelegate.swift */; };
+		BD8D6C431B0A704B00BFDDF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8D6C421B0A704B00BFDDF3 /* Images.xcassets */; };
+		BD8D6C461B0A704B00BFDDF3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD8D6C441B0A704B00BFDDF3 /* MainMenu.xib */; };
+		BD8D6C521B0A704B00BFDDF3 /* PaintCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D6C511B0A704B00BFDDF3 /* PaintCodeTests.swift */; };
+		BD8D6C5C1B0A70C300BFDDF3 /* ChatIconStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D6C5B1B0A70C300BFDDF3 /* ChatIconStyleKit.swift */; };
+		BD8D6C5E1B0A70D700BFDDF3 /* ChatIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D6C5D1B0A70D700BFDDF3 /* ChatIconView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD8D6C4C1B0A704B00BFDDF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD8D6C331B0A704B00BFDDF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD8D6C3A1B0A704B00BFDDF3;
+			remoteInfo = PaintCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD8D6C3B1B0A704B00BFDDF3 /* PaintCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8D6C3F1B0A704B00BFDDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD8D6C401B0A704B00BFDDF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD8D6C421B0A704B00BFDDF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD8D6C451B0A704B00BFDDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BD8D6C4B1B0A704B00BFDDF3 /* PaintCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8D6C501B0A704B00BFDDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD8D6C511B0A704B00BFDDF3 /* PaintCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintCodeTests.swift; sourceTree = "<group>"; };
+		BD8D6C5B1B0A70C300BFDDF3 /* ChatIconStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatIconStyleKit.swift; path = ChatIcon/ChatIconStyleKit.swift; sourceTree = SOURCE_ROOT; };
+		BD8D6C5D1B0A70D700BFDDF3 /* ChatIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatIconView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD8D6C381B0A704B00BFDDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8D6C481B0A704B00BFDDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD8D6C321B0A704B00BFDDF3 = {
+			isa = PBXGroup;
+			children = (
+				BD8D6C3D1B0A704B00BFDDF3 /* PaintCode */,
+				BD8D6C4E1B0A704B00BFDDF3 /* PaintCodeTests */,
+				BD8D6C3C1B0A704B00BFDDF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD8D6C3C1B0A704B00BFDDF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D6C3B1B0A704B00BFDDF3 /* PaintCode.app */,
+				BD8D6C4B1B0A704B00BFDDF3 /* PaintCodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD8D6C3D1B0A704B00BFDDF3 /* PaintCode */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D6C5B1B0A70C300BFDDF3 /* ChatIconStyleKit.swift */,
+				BD8D6C401B0A704B00BFDDF3 /* AppDelegate.swift */,
+				BD8D6C5D1B0A70D700BFDDF3 /* ChatIconView.swift */,
+				BD8D6C421B0A704B00BFDDF3 /* Images.xcassets */,
+				BD8D6C441B0A704B00BFDDF3 /* MainMenu.xib */,
+				BD8D6C3E1B0A704B00BFDDF3 /* Supporting Files */,
+			);
+			path = PaintCode;
+			sourceTree = "<group>";
+		};
+		BD8D6C3E1B0A704B00BFDDF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D6C3F1B0A704B00BFDDF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD8D6C4E1B0A704B00BFDDF3 /* PaintCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D6C511B0A704B00BFDDF3 /* PaintCodeTests.swift */,
+				BD8D6C4F1B0A704B00BFDDF3 /* Supporting Files */,
+			);
+			path = PaintCodeTests;
+			sourceTree = "<group>";
+		};
+		BD8D6C4F1B0A704B00BFDDF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D6C501B0A704B00BFDDF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD8D6C3A1B0A704B00BFDDF3 /* PaintCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8D6C551B0A704B00BFDDF3 /* Build configuration list for PBXNativeTarget "PaintCode" */;
+			buildPhases = (
+				BD8D6C371B0A704B00BFDDF3 /* Sources */,
+				BD8D6C381B0A704B00BFDDF3 /* Frameworks */,
+				BD8D6C391B0A704B00BFDDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaintCode;
+			productName = PaintCode;
+			productReference = BD8D6C3B1B0A704B00BFDDF3 /* PaintCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD8D6C4A1B0A704B00BFDDF3 /* PaintCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8D6C581B0A704B00BFDDF3 /* Build configuration list for PBXNativeTarget "PaintCodeTests" */;
+			buildPhases = (
+				BD8D6C471B0A704B00BFDDF3 /* Sources */,
+				BD8D6C481B0A704B00BFDDF3 /* Frameworks */,
+				BD8D6C491B0A704B00BFDDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD8D6C4D1B0A704B00BFDDF3 /* PBXTargetDependency */,
+			);
+			name = PaintCodeTests;
+			productName = PaintCodeTests;
+			productReference = BD8D6C4B1B0A704B00BFDDF3 /* PaintCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD8D6C331B0A704B00BFDDF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = rimbaudcode;
+				TargetAttributes = {
+					BD8D6C3A1B0A704B00BFDDF3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					BD8D6C4A1B0A704B00BFDDF3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = BD8D6C3A1B0A704B00BFDDF3;
+					};
+				};
+			};
+			buildConfigurationList = BD8D6C361B0A704B00BFDDF3 /* Build configuration list for PBXProject "PaintCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD8D6C321B0A704B00BFDDF3;
+			productRefGroup = BD8D6C3C1B0A704B00BFDDF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD8D6C3A1B0A704B00BFDDF3 /* PaintCode */,
+				BD8D6C4A1B0A704B00BFDDF3 /* PaintCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD8D6C391B0A704B00BFDDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8D6C431B0A704B00BFDDF3 /* Images.xcassets in Resources */,
+				BD8D6C461B0A704B00BFDDF3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8D6C491B0A704B00BFDDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD8D6C371B0A704B00BFDDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8D6C5E1B0A70D700BFDDF3 /* ChatIconView.swift in Sources */,
+				BD8D6C411B0A704B00BFDDF3 /* AppDelegate.swift in Sources */,
+				BD8D6C5C1B0A70C300BFDDF3 /* ChatIconStyleKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8D6C471B0A704B00BFDDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8D6C521B0A704B00BFDDF3 /* PaintCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD8D6C4D1B0A704B00BFDDF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD8D6C3A1B0A704B00BFDDF3 /* PaintCode */;
+			targetProxy = BD8D6C4C1B0A704B00BFDDF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD8D6C441B0A704B00BFDDF3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD8D6C451B0A704B00BFDDF3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD8D6C531B0A704B00BFDDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD8D6C541B0A704B00BFDDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BD8D6C561B0A704B00BFDDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PaintCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD8D6C571B0A704B00BFDDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PaintCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD8D6C591B0A704B00BFDDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaintCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaintCode.app/Contents/MacOS/PaintCode";
+			};
+			name = Debug;
+		};
+		BD8D6C5A1B0A704B00BFDDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaintCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaintCode.app/Contents/MacOS/PaintCode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD8D6C361B0A704B00BFDDF3 /* Build configuration list for PBXProject "PaintCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8D6C531B0A704B00BFDDF3 /* Debug */,
+				BD8D6C541B0A704B00BFDDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8D6C551B0A704B00BFDDF3 /* Build configuration list for PBXNativeTarget "PaintCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8D6C561B0A704B00BFDDF3 /* Debug */,
+				BD8D6C571B0A704B00BFDDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8D6C581B0A704B00BFDDF3 /* Build configuration list for PBXNativeTarget "PaintCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8D6C591B0A704B00BFDDF3 /* Debug */,
+				BD8D6C5A1B0A704B00BFDDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD8D6C331B0A704B00BFDDF3 /* Project object */;
+}
