@@ -1,0 +1,10 @@
+PODS:
+  - CSwiftV (0.0.1)
+
+DEPENDENCIES:
+  - CSwiftV (~> 0.0)
+
+SPEC CHECKSUMS:
+  CSwiftV: 672b5d45d474a68ef7f27a495db0532f3379db56
+
+COCOAPODS: 0.37.1

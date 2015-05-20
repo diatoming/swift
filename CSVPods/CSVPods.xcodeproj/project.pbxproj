@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD0F6BEF1B0BDA04008536DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0F6BEE1B0BDA04008536DB /* AppDelegate.swift */; };
+		BD0F6BF11B0BDA04008536DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0F6BF01B0BDA04008536DB /* Images.xcassets */; };
+		BD0F6BF41B0BDA04008536DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD0F6BF21B0BDA04008536DB /* MainMenu.xib */; };
+		BD0F6C001B0BDA04008536DB /* CSVPodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0F6BFF1B0BDA04008536DB /* CSVPodsTests.swift */; };
+		FE51EBB4B4A6E2DC845DC6FC /* Pods_CSVPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3FA5D53A027B0B70DAE233 /* Pods_CSVPods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD0F6BFA1B0BDA04008536DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD0F6BE11B0BDA04008536DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD0F6BE81B0BDA04008536DB;
+			remoteInfo = CSVPods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12241D1E66594DDD9CE8BE5F /* Pods-CSVPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSVPods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSVPods/Pods-CSVPods.debug.xcconfig"; sourceTree = "<group>"; };
+		2E3FA5D53A027B0B70DAE233 /* Pods_CSVPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSVPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF9B9919EECA1554FD3B531 /* Pods-CSVPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSVPods.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSVPods/Pods-CSVPods.release.xcconfig"; sourceTree = "<group>"; };
+		BD0F6BE91B0BDA04008536DB /* CSVPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSVPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0F6BED1B0BDA04008536DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0F6BEE1B0BDA04008536DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD0F6BF01B0BDA04008536DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD0F6BF31B0BDA04008536DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BD0F6BF91B0BDA04008536DB /* CSVPodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSVPodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0F6BFE1B0BDA04008536DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0F6BFF1B0BDA04008536DB /* CSVPodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVPodsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD0F6BE61B0BDA04008536DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE51EBB4B4A6E2DC845DC6FC /* Pods_CSVPods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0F6BF61B0BDA04008536DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841E7DDA501CFAAEF9213DD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E3FA5D53A027B0B70DAE233 /* Pods_CSVPods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3FCB456EA4005992C88C190 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12241D1E66594DDD9CE8BE5F /* Pods-CSVPods.debug.xcconfig */,
+				BAF9B9919EECA1554FD3B531 /* Pods-CSVPods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD0F6BE01B0BDA04008536DB = {
+			isa = PBXGroup;
+			children = (
+				BD0F6BEB1B0BDA04008536DB /* CSVPods */,
+				BD0F6BFC1B0BDA04008536DB /* CSVPodsTests */,
+				BD0F6BEA1B0BDA04008536DB /* Products */,
+				B3FCB456EA4005992C88C190 /* Pods */,
+				841E7DDA501CFAAEF9213DD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD0F6BEA1B0BDA04008536DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD0F6BE91B0BDA04008536DB /* CSVPods.app */,
+				BD0F6BF91B0BDA04008536DB /* CSVPodsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD0F6BEB1B0BDA04008536DB /* CSVPods */ = {
+			isa = PBXGroup;
+			children = (
+				BD0F6BEE1B0BDA04008536DB /* AppDelegate.swift */,
+				BD0F6BF01B0BDA04008536DB /* Images.xcassets */,
+				BD0F6BF21B0BDA04008536DB /* MainMenu.xib */,
+				BD0F6BEC1B0BDA04008536DB /* Supporting Files */,
+			);
+			path = CSVPods;
+			sourceTree = "<group>";
+		};
+		BD0F6BEC1B0BDA04008536DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD0F6BED1B0BDA04008536DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD0F6BFC1B0BDA04008536DB /* CSVPodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD0F6BFF1B0BDA04008536DB /* CSVPodsTests.swift */,
+				BD0F6BFD1B0BDA04008536DB /* Supporting Files */,
+			);
+			path = CSVPodsTests;
+			sourceTree = "<group>";
+		};
+		BD0F6BFD1B0BDA04008536DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD0F6BFE1B0BDA04008536DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD0F6BE81B0BDA04008536DB /* CSVPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0F6C031B0BDA04008536DB /* Build configuration list for PBXNativeTarget "CSVPods" */;
+			buildPhases = (
+				FC87CD9CF0FCDF97132A847F /* Check Pods Manifest.lock */,
+				BD0F6BE51B0BDA04008536DB /* Sources */,
+				BD0F6BE61B0BDA04008536DB /* Frameworks */,
+				BD0F6BE71B0BDA04008536DB /* Resources */,
+				DBF60454C753D9E663AC88A9 /* Embed Pods Frameworks */,
+				D659084BD59CD24BDD91F8CB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSVPods;
+			productName = CSVPods;
+			productReference = BD0F6BE91B0BDA04008536DB /* CSVPods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD0F6BF81B0BDA04008536DB /* CSVPodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0F6C061B0BDA04008536DB /* Build configuration list for PBXNativeTarget "CSVPodsTests" */;
+			buildPhases = (
+				BD0F6BF51B0BDA04008536DB /* Sources */,
+				BD0F6BF61B0BDA04008536DB /* Frameworks */,
+				BD0F6BF71B0BDA04008536DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD0F6BFB1B0BDA04008536DB /* PBXTargetDependency */,
+			);
+			name = CSVPodsTests;
+			productName = CSVPodsTests;
+			productReference = BD0F6BF91B0BDA04008536DB /* CSVPodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD0F6BE11B0BDA04008536DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = rimbaudcode;
+				TargetAttributes = {
+					BD0F6BE81B0BDA04008536DB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					BD0F6BF81B0BDA04008536DB = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BD0F6BE81B0BDA04008536DB;
+					};
+				};
+			};
+			buildConfigurationList = BD0F6BE41B0BDA04008536DB /* Build configuration list for PBXProject "CSVPods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD0F6BE01B0BDA04008536DB;
+			productRefGroup = BD0F6BEA1B0BDA04008536DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD0F6BE81B0BDA04008536DB /* CSVPods */,
+				BD0F6BF81B0BDA04008536DB /* CSVPodsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD0F6BE71B0BDA04008536DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0F6BF11B0BDA04008536DB /* Images.xcassets in Resources */,
+				BD0F6BF41B0BDA04008536DB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0F6BF71B0BDA04008536DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D659084BD59CD24BDD91F8CB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSVPods/Pods-CSVPods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBF60454C753D9E663AC88A9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSVPods/Pods-CSVPods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC87CD9CF0FCDF97132A847F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD0F6BE51B0BDA04008536DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0F6BEF1B0BDA04008536DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0F6BF51B0BDA04008536DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0F6C001B0BDA04008536DB /* CSVPodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD0F6BFB1B0BDA04008536DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD0F6BE81B0BDA04008536DB /* CSVPods */;
+			targetProxy = BD0F6BFA1B0BDA04008536DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD0F6BF21B0BDA04008536DB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD0F6BF31B0BDA04008536DB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD0F6C011B0BDA04008536DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD0F6C021B0BDA04008536DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BD0F6C041B0BDA04008536DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12241D1E66594DDD9CE8BE5F /* Pods-CSVPods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CSVPods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD0F6C051B0BDA04008536DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF9B9919EECA1554FD3B531 /* Pods-CSVPods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CSVPods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD0F6C071B0BDA04008536DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CSVPodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSVPods.app/Contents/MacOS/CSVPods";
+			};
+			name = Debug;
+		};
+		BD0F6C081B0BDA04008536DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CSVPodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSVPods.app/Contents/MacOS/CSVPods";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD0F6BE41B0BDA04008536DB /* Build configuration list for PBXProject "CSVPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0F6C011B0BDA04008536DB /* Debug */,
+				BD0F6C021B0BDA04008536DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0F6C031B0BDA04008536DB /* Build configuration list for PBXNativeTarget "CSVPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0F6C041B0BDA04008536DB /* Debug */,
+				BD0F6C051B0BDA04008536DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0F6C061B0BDA04008536DB /* Build configuration list for PBXNativeTarget "CSVPodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0F6C071B0BDA04008536DB /* Debug */,
+				BD0F6C081B0BDA04008536DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD0F6BE11B0BDA04008536DB /* Project object */;
+}

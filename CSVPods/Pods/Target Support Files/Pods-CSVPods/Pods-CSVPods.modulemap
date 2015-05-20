@@ -1,0 +1,6 @@
+framework module Pods_CSVPods {
+  umbrella header "Pods-CSVPods-umbrella.h"
+
+  export *
+  module * { export * }
+}
