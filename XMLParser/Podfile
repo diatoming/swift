@@ -1,0 +1,11 @@
+platform :osx, '10.10'
+use_frameworks!
+
+target 'XMLParser' do
+  pod 'SWXMLHash', '~> 1.0'
+end
+
+target 'XMLParserTests' do
+
+end
+
