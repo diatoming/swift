@@ -10,15 +10,30 @@ import Cocoa
 
 class RCWindowController: NSWindowController {
 
-  let kRCWindowXOrigin: CGFloat = 0.0
-  let kRCWindowYOrigin: CGFloat = 0.0
+  enum RCWindowPositionOnDesktop: Int {
+    case belowIcons = 0
+    case aboveIcons = 1
+  }
+
+  struct RCScreenFrameSize {
+    let width = NSScreen.mainScreen()?.frame.size.width
+    let height = NSScreen.mainScreen()?.frame.size.width
+  }
+
+  struct RCWindowAlphaValue {
+    let initialAlphaValue: CGFloat
+    let finalAlphaValue: CGFloat
+  }
+
+  struct RCWindowOrigin {
+    let XOrigin: CGFloat
+    let YOrigin: CGFloat
+  }
 
   let kRCWindowAnimationDuration = 2.0
-  let kRCWindowInitialAlphaValue: CGFloat = 0.0
-  let kRCWindowFinalAlphaValue: CGFloat = 1.0
-
-  let kRCWindowPositionOnDesktopBelowIcons: Int = 0
-  let kRCWindowPositionOnDesktopAboveIcons: Int = 1
+  let alphaValue = RCWindowAlphaValue(initialAlphaValue: 0.0, finalAlphaValue: 1.0)
+  let screenFrameSize = RCScreenFrameSize()
+  let windowOrigin = RCWindowOrigin(XOrigin: 0.0, YOrigin: 0.0)
 
 }
 
@@ -30,45 +45,47 @@ extension RCWindowController {
     setWindowPositionOnDestop()
     animateWindowDisplayAtLaunch()
     showMenuBar(true)
-    resetOSXFinder(true)
+    launchOSXFinder()
   }
 
-  private func setWindowProperties() -> () {
+}
+
+private extension RCWindowController {
+
+  func setWindowProperties() {
+    let screenFrame = NSMakeRect(windowOrigin.XOrigin, windowOrigin.YOrigin, screenFrameSize.width!, screenFrameSize.height!)
+
     window?.backgroundColor = NSColor.blackColor()
     window?.opaque = false
     window?.hasShadow = false
     window?.styleMask = NSBorderlessWindowMask // hide titlebar
 
-    // get screen size and scale window to fit that size
-    let screenFrameWidth = NSScreen.mainScreen()?.frame.size.width
-    let screenFrameHeight = NSScreen.mainScreen()?.frame.size.width
-    let screenFrame = NSMakeRect(kRCWindowXOrigin, kRCWindowYOrigin, screenFrameWidth!, screenFrameHeight!)
+    // scale window to fit the screen size
     window?.setFrame(screenFrame, display: true, animate: true)
   }
 
-  private func setWindowPositionOnSpaces() -> () {
-    window?.center()
+  func setWindowPositionOnSpaces() {
     window?.collectionBehavior = NSWindowCollectionBehavior.CanJoinAllSpaces
   }
 
-  private func setWindowPositionOnDestop() -> () {
+  func setWindowPositionOnDestop() {
     window?.level = Int(CGWindowLevelForKey(Int32(kCGDesktopIconWindowLevelKey)))
   }
 
-  private func animateWindowDisplayAtLaunch() -> () {
+  func animateWindowDisplayAtLaunch() {
     NSAnimationContext.beginGrouping()
     NSAnimationContext.currentContext().duration = kRCWindowAnimationDuration
-    window?.alphaValue = kRCWindowInitialAlphaValue
-    window?.animator().alphaValue = kRCWindowFinalAlphaValue
+    window?.alphaValue = alphaValue.initialAlphaValue
+    window?.animator().alphaValue = alphaValue.finalAlphaValue
     NSAnimationContext.endGrouping()
   }
 
-  private func showMenuBar(show:Bool) -> () {
+  func showMenuBar(show:Bool) {
     NSMenu.setMenuBarVisible(show)
   }
 
-  private func resetOSXFinder(Bool) -> () {
-    // to implement
+  func launchOSXFinder() {
+    NSWorkspace.sharedWorkspace().launchApplication("Finder")
   }
 
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDCD00C91B0B98EE00CE53C0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BDCD00C81B0B98EE00CE53C0 /* Credits.rtf */; };
 		BDEA66E91B0B464A0096ACB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEA66E81B0B464A0096ACB0 /* AppDelegate.swift */; };
 		BDEA66EB1B0B464A0096ACB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEA66EA1B0B464A0096ACB0 /* Images.xcassets */; };
 		BDEA66EE1B0B464A0096ACB0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEA66EC1B0B464A0096ACB0 /* MainMenu.xib */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BDCD00C81B0B98EE00CE53C0 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		BDEA66E31B0B464A0096ACB0 /* BlackBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEA66E71B0B464A0096ACB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDEA66E81B0B464A0096ACB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +56,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BDCD00C41B0B84F400CE53C0 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				BDEA66E81B0B464A0096ACB0 /* AppDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		BDCD00C51B0B850100CE53C0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDEA67031B0B48420096ACB0 /* RCWindowController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BDCD00C61B0B851500CE53C0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BDEA66EA1B0B464A0096ACB0 /* Images.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		BDCD00C71B0B852A00CE53C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDEA66EC1B0B464A0096ACB0 /* MainMenu.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		BDEA66DA1B0B464A0096ACB0 = {
 			isa = PBXGroup;
 			children = (
@@ -75,10 +109,10 @@
 		BDEA66E51B0B464A0096ACB0 /* BlackBackground */ = {
 			isa = PBXGroup;
 			children = (
-				BDEA66E81B0B464A0096ACB0 /* AppDelegate.swift */,
-				BDEA66EA1B0B464A0096ACB0 /* Images.xcassets */,
-				BDEA66EC1B0B464A0096ACB0 /* MainMenu.xib */,
-				BDEA67031B0B48420096ACB0 /* RCWindowController.swift */,
+				BDCD00C61B0B851500CE53C0 /* Assets */,
+				BDCD00C51B0B850100CE53C0 /* Controllers */,
+				BDCD00C41B0B84F400CE53C0 /* Delegates */,
+				BDCD00C71B0B852A00CE53C0 /* View */,
 				BDEA66E61B0B464A0096ACB0 /* Supporting Files */,
 			);
 			path = BlackBackground;
@@ -87,6 +121,7 @@
 		BDEA66E61B0B464A0096ACB0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BDCD00C81B0B98EE00CE53C0 /* Credits.rtf */,
 				BDEA66E71B0B464A0096ACB0 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -190,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDEA66EB1B0B464A0096ACB0 /* Images.xcassets in Resources */,
+				BDCD00C91B0B98EE00CE53C0 /* Credits.rtf in Resources */,
 				BDEA66EE1B0B464A0096ACB0 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
