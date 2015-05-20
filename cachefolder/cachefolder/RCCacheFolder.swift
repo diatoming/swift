@@ -9,14 +9,16 @@
 import Foundation
 
 struct RCCacheFolder {
-  let CACHE_FOLDER_INDEX = 0
+  let kCacheFolderIndex = 0
 }
 
 extension RCCacheFolder {
+
   func cacheFolderURL() -> NSURL {
     let fileManager = NSFileManager.defaultManager()
     return fileManager.URLsForDirectory(NSSearchPathDirectory.CachesDirectory,
-      inDomains: NSSearchPathDomainMask.UserDomainMask)[CACHE_FOLDER_INDEX] as! NSURL
+      inDomains: NSSearchPathDomainMask.UserDomainMask)[kCacheFolderIndex] as! NSURL
   }
+
 }
 

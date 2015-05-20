@@ -7,4 +7,5 @@ let jellyTime = "Do the peanut butter jelly, peanut butter jelly, Peanut butter 
 
 synth.startSpeakingString(jellyTime)
 
-NSRunLoop.currentRunLoop().runUntilDate(NSDate.distantFuture() as NSDate)
+NSRunLoop.currentRunLoop().runUntilDate(NSDate.distantFuture() as! NSDate)
+

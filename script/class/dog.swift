@@ -3,8 +3,8 @@
 import Foundation
 
 struct Dog {
-  let name : String
-  let age : Int
+  let name: String
+  let age: Int
 }
 
 extension Dog {

@@ -59,10 +59,26 @@
 		BD8400AF1B0379C800781B40 /* tempfolder */ = {
 			isa = PBXGroup;
 			children = (
-				BD8400B01B0379C800781B40 /* main.swift */,
-				BD8400B71B037AA000781B40 /* RCTempFolder.swift */,
+				BD95B4791B0CBF6C00075E6B /* Model */,
+				BD95B47A1B0CBF7200075E6B /* View */,
 			);
 			path = tempfolder;
+			sourceTree = "<group>";
+		};
+		BD95B4791B0CBF6C00075E6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD8400B71B037AA000781B40 /* RCTempFolder.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BD95B47A1B0CBF7200075E6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD8400B01B0379C800781B40 /* main.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +258,7 @@
 				BD8400B61B0379C800781B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

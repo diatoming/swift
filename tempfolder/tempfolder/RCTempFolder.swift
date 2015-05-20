@@ -12,8 +12,10 @@ struct RCTempFolder {
 }
 
 extension RCTempFolder {
+
   func tempFolderURL() -> NSURL {
     return NSURL.fileURLWithPath(NSTemporaryDirectory())!
   }
+
 }
 

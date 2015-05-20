@@ -10,14 +10,14 @@ import Foundation
 
 struct Person {
     
-    let firstname: String = ""
-    let lastname : String = ""
+    let firstname: String
+    let lastname : String
 }
 
 extension Person {
 
   func greet() -> String {
-    return "Hello! My name is \(self.firstname.capitalizedString) \(self.lastname.capitalizedString)."
+    return "Hello! My name is \(firstname.capitalizedString) \(lastname.capitalizedString)."
   }
 
   func greetSomebody(somebody: String) -> String {
@@ -25,3 +25,4 @@ extension Person {
   }
 
 }
+

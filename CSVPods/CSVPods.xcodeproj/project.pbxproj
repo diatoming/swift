@@ -97,9 +97,9 @@
 		BD0F6BEB1B0BDA04008536DB /* CSVPods */ = {
 			isa = PBXGroup;
 			children = (
-				BD0F6BEE1B0BDA04008536DB /* AppDelegate.swift */,
-				BD0F6BF01B0BDA04008536DB /* Images.xcassets */,
-				BD0F6BF21B0BDA04008536DB /* MainMenu.xib */,
+				BD95B4721B0CBB6300075E6B /* Assets */,
+				BD95B4711B0CBB5800075E6B /* Delegates */,
+				BD95B4731B0CBB6F00075E6B /* View */,
 				BD0F6BEC1B0BDA04008536DB /* Supporting Files */,
 			);
 			path = CSVPods;
@@ -128,6 +128,30 @@
 				BD0F6BFE1B0BDA04008536DB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD95B4711B0CBB5800075E6B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				BD0F6BEE1B0BDA04008536DB /* AppDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		BD95B4721B0CBB6300075E6B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BD0F6BF01B0BDA04008536DB /* Images.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		BD95B4731B0CBB6F00075E6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD0F6BF21B0BDA04008536DB /* MainMenu.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

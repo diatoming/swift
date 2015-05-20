@@ -9,7 +9,7 @@
 import Cocoa
 import SwiftyJSON
 
-class TaoReader {
+struct TaoReader {
 
   let bookURL = NSBundle.mainBundle().URLForResource("tao", withExtension: "json")
 

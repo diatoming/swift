@@ -77,11 +77,11 @@
 		BD8D6C3D1B0A704B00BFDDF3 /* PaintCode */ = {
 			isa = PBXGroup;
 			children = (
-				BD8D6C5B1B0A70C300BFDDF3 /* ChatIconStyleKit.swift */,
-				BD8D6C401B0A704B00BFDDF3 /* AppDelegate.swift */,
-				BD8D6C5D1B0A70D700BFDDF3 /* ChatIconView.swift */,
-				BD8D6C421B0A704B00BFDDF3 /* Images.xcassets */,
-				BD8D6C441B0A704B00BFDDF3 /* MainMenu.xib */,
+				BD95B4771B0CBBA800075E6B /* Assets */,
+				BD95B4761B0CBBA100075E6B /* Controller */,
+				BD95B4751B0CBB9A00075E6B /* Delegates */,
+				BD95B4741B0CBB9100075E6B /* PaintCode */,
+				BD95B4781B0CBBB600075E6B /* View */,
 				BD8D6C3E1B0A704B00BFDDF3 /* Supporting Files */,
 			);
 			path = PaintCode;
@@ -110,6 +110,46 @@
 				BD8D6C501B0A704B00BFDDF3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD95B4741B0CBB9100075E6B /* PaintCode */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D6C5B1B0A70C300BFDDF3 /* ChatIconStyleKit.swift */,
+			);
+			name = PaintCode;
+			sourceTree = "<group>";
+		};
+		BD95B4751B0CBB9A00075E6B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D6C401B0A704B00BFDDF3 /* AppDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		BD95B4761B0CBBA100075E6B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D6C5D1B0A70D700BFDDF3 /* ChatIconView.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BD95B4771B0CBBA800075E6B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D6C421B0A704B00BFDDF3 /* Images.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		BD95B4781B0CBBB600075E6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D6C441B0A704B00BFDDF3 /* MainMenu.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
